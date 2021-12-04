@@ -25,6 +25,7 @@ timeBlockEl()
 
 $('button').on('click', function() {
     var buttonText = $(this).siblings('.description').val();
-    var toDoItem = $(this).parent().attr('data-hour');
+    var toDoItem = $(this).parent().attr('id');
+    // set to local
     localStorage.setItem(toDoItem, buttonText);
 })
