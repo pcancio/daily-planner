@@ -53,9 +53,15 @@ textarea {
     color: white;
 }
 
+<<<<<<< HEAD
 .future {
     background-color: #77dd77;
     color: white;
+=======
+.future {background-color: #77dd77;
+color: white;
+
+>>>>>>> 21c322fc43ea225d99c4141aa6cd59d2364c6d1c
 }
 
 .saveBtn {
