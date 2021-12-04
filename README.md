@@ -18,10 +18,15 @@ THEN the text for that event is saved in local storage
 WHEN I refresh the page
 THEN the saved events persist
 # Images
+<<<<<<< HEAD
 <img src ="assets/images/currentday.png">
 
 <img src ="assets/images/colorspastpresentfuture.png">
 
+=======
+![current day] (currentday.png)
+![colors for past, present, future] (colorspastpresentfuture.png)
+>>>>>>> a729e181691d6fe7224c1f2a876e3b37c07d9570
 
 # Links
 
