@@ -12,4 +12,8 @@ function handleSave(e) {
         updateTimeSlotItems();
 
         $(document).on('click', '.save-btn', handleSave)
+
     }
+
+    // start
+    $(main);

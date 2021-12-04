@@ -18,6 +18,7 @@
         <p class="lead">A simple calendar app for scheduling your work day</p>
         <p id="currentDay" class="lead"></p>
     </header>
+    <!-- Time Blocks -->
     <div class="container">
         <div id="hour-8" class="row time-block">
             <div class="col-md-1 hour">
@@ -129,7 +130,8 @@
         </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+    <script src="./assets/js/script.js"></script>
 </body>
 
 </html>
@@ -138,11 +140,8 @@
 WHEN I open the planner
 THEN the current day is displayed at the top of the calendar
 
-WHEN I scroll down
-THEN I am presented with time blocks for standard business hours
 
-WHEN I view the time blocks for that day
-THEN each time block is color-coded to indicate whether it is in the past, present, or future
+
 
 WHEN I click into a time block
 THEN I can enter an event
