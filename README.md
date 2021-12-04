@@ -18,6 +18,8 @@ THEN the text for that event is saved in local storage
 WHEN I refresh the page
 THEN the saved events persist
 # Images
+![current day] (currentday.png)
+![colors for past, present, future] (colorspastpresentfuture.png)
 
 # Links
 
