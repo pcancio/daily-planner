@@ -21,5 +21,7 @@ THEN the text for that event is saved in local storage
 WHEN I refresh the page
 THEN the saved events persist
 
-# Link to Github repository:https://github.com/pcancio/daily-planner
-# Link to deployed application: 
+Link to Github repository:https://github.com/pcancio/daily-planner
+Link to deployed application:  https://pcancio.github.io/daily-planner/
+
+
