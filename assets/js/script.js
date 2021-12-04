@@ -19,3 +19,12 @@ function timeBlockEl() {
         }
     })
 }
+timeBlockEl()
+
+//WHEN I click into a time block THEN I can enter an event WHEN I click the save button for that time block THEN the text for that event is saved in local storage
+
+$('button').on('click', function() {
+    var buttonText = $(this).siblings('.description').val();
+    var toDoItem = $(this).parent().attr('data-hour');
+    localStorage.setItem(toDoItem, buttonText);
+})
